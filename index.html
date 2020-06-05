@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estate</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <h1>Real Estate</h1>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" class="active">Register / Login</a></li>
+          <li class="menu">Close</li>
+        </ul>
+        <div class="menu">Menu</div>
+      </header>
+      <section>
+        <div class="banner">
+          <div class="thumb">
+            <img src="./images/bn1.jpg" alt="" />
+            <img src="./images/bn2.jpg" alt="" />
+            <img src="./images/bn3.jpg" alt="" />
+            <img src="./images/bn4.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Find your dream home today</h2>
+            <p>Welcome to our company</p>
+            <form>
+              <input
+                type="text"
+                name="srch"
+                id="srch"
+                required
+                placeholder="Find your dream home"
+              />
+              <button type="submit">Find</button>
+            </form>
+          </div>
+          <div class="prev">&lt;</div>
+          <div class="next">&gt;</div>
+          <div class="slide-nav">
+            <div class="nav-dot dot-active">1</div>
+            <div class="nav-dot">2</div>
+            <div class="nav-dot">3</div>
+            <div class="nav-dot">4</div>
+          </div>
+        </div>
+        <div id="about">
+          <h2>About Us</h2>
+          <div class="content">
+            <div class="text">
+              <h3>Real Estate Company</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                saepe aliquam dolore dolorem enim? Provident sint nam quis alias
+                aperiam.
+              </p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                eos nobis recusandae iure quis fugiat dolorum laborum nihil, sed
+                soluta!
+              </p>
+              <a href="#">Read more</a>
+            </div>
+            <div class="thumb">
+              <div class="thumb-box">
+                <img
+                  class="lazy"
+                  src=""
+                  data-src="./images/company1.jpg"
+                  alt=""
+                />
+                <h3>Company01</h3>
+              </div>
+              <div class="thumb-box">
+                <img
+                  class="lazy"
+                  src=""
+                  data-src="./images/company2.jpg"
+                  alt=""
+                />
+                <h3>Company02</h3>
+              </div>
+            </div>
+          </div>
+          <div class="partner">
+            <h3>Our Partners</h3>
+            <div class="thumb">
+              <div class="thumb-box">
+                <img
+                  class="lazy"
+                  src=""
+                  data-src="./images/partner1.jpg"
+                  alt=""
+                />
+                <h3>Project Manager</h3>
+                <div class="social">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                  ipsam aut, consectetur dolores molestiae neque quia nulla quos
+                  inventore veniam.
+                </p>
+                <a href="#">Read more</a>
+              </div>
+              <div class="thumb-box">
+                <img
+                  class="lazy"
+                  src=""
+                  data-src="./images/partner2.jpg"
+                  alt=""
+                />
+                <h3>CEO & Founder</h3>
+                <div class="social">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                  minima eligendi saepe laboriosam repellat accusamus sunt.
+                  Necessitatibus illo unde reprehenderit!
+                </p>
+                <a href="#">Read more</a>
+              </div>
+              <div class="thumb-box">
+                <img
+                  class="lazy"
+                  src=""
+                  data-src="./images/partner3.jpg"
+                  alt=""
+                />
+                <h3>Senior Agent</h3>
+                <div class="social">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Numquam natus ab aspernatur, praesentium voluptatum ipsam
+                  nostrum sunt obcaecati hic sit.
+                </p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------Properties--------------------------------------------- -->
+        <div id="properties">
+          <h2>Top Properties</h2>
+          <div class="content">
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties1.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property01</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                  odit temporibus eius amet, natus autem.
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties2.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property02</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Impedit, voluptas? Maxime debitis tenetur odio quisquam?
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties3.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property03</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                  maxime tempore accusantium vitae aut omnis?
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties4.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property04</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptates nisi obcaecati ipsum magni repellat quaerat.
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties5.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property05</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima quia corporis eveniet ipsam magnam fugiat?
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties6.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property06</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sapiente a in labore ducimus, quibusdam et.
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties1.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property07</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sapiente a in labore ducimus, quibusdam et.
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties2.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property08</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sapiente a in labore ducimus, quibusdam et.
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties3.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property09</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sapiente a in labore ducimus, quibusdam et.
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties4.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property10</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sapiente a in labore ducimus, quibusdam et.
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties5.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property11</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sapiente a in labore ducimus, quibusdam et.
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/properties6.jpg"
+                alt=""
+              />
+              <div class="text">
+                <h3>Property12</h3>
+                <span>$199</span>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Sapiente a in labore ducimus, quibusdam et.
+                </p>
+                <div class="details">
+                  <span>1200 sq ft</span>
+                  <span>4 bedrooms</span>
+                  <span>2 bathrooms</span>
+                </div>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="view">View ALL Properties</a>
+        </div>
+
+        <div id="services">
+          <h2>Our Services</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, a
+            tenetur necessitatibus consectetur alias consequatur!.
+          </p>
+          <div class="content">
+            <div class="card">
+              <i class="fas fa-map-marker" aria-hidden="true"></i>
+              <h3>Find Places Any Where In The World</h3>
+            </div>
+            <div class="card">
+              <i class="fas fa-users" aria-hidden="true"></i>
+              <h3>We Have Agents With Experience</h3>
+            </div>
+            <div class="card">
+              <i class="fas fa-building" aria-hidden="true"></i>
+              <h3>Buy Or Rent Sales Properties</h3>
+            </div>
+            <div class="card">
+              <i class="fab fa-mixcloud" aria-hidden="true"></i>
+              <h3>Find Your New Place With Real Estate</h3>
+            </div>
+          </div>
+          <div class="content">
+            <div class="card">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/services1.jpg"
+                alt=""
+              />
+              <h3>Save The Money</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium neque reprehenderit modi ad, id eveniet quas ratione
+                dolores laudantium dolorem.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/services2.jpg"
+                alt=""
+              />
+              <h3>Cash Deposits</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur eaque repellendus hic recusandae facilis asperiores
+                dolore cum quaerat nesciunt deleniti!
+              </p>
+            </div>
+            <div class="card">
+              <img
+                class="lazy"
+                src=""
+                data-src="./images/services3.jpg"
+                alt=""
+              />
+              <h3>Take Your Key</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquam ut quos quae eligendi assumenda id, ducimus perspiciatis
+                praesentium hic sapiente!
+              </p>
+            </div>
+          </div>
+          <h2>Client Reviews</h2>
+          <div class="content">
+            <div class="card circle">
+              <img class="lazy" src="" data-src="./images/review1.jpg" alt="" />
+              <div class="text">
+                <h3>Fancis Wrong</h3>
+                <h4>BTV Company</h4>
+                <i class="fas fa-quote-right" aria-hidden="true"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  nulla blanditiis nemo quia assumenda hic eligendi perspiciatis
+                  dolorem distinctio iusto inventore beatae, ut nihil fuga vel
+                  fugiat aspernatur dolore totam.
+                </p>
+              </div>
+            </div>
+            <div class="card circle">
+              <img class="lazy" src="" data-src="./images/review2.jpg" alt="" />
+
+              <div class="text">
+                <h3>Alexandra Miley</h3>
+                <h4>BTV Company</h4>
+                <i class="fas fa-quote-right" aria-hidden="true"></i>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam atque facilis dolorum est at praesentium, saepe qui
+                  nesciunt possimus non dolorem aut sit suscipit modi eveniet
+                  blanditiis ea excepturi omnis.
+                </p>
+              </div>
+            </div>
+            <div class="card circle">
+              <img class="lazy" src="" data-src="./images/review3.jpg" alt="" />
+
+              <div class="text">
+                <h3>Shara Miley</h3>
+                <h4>BTV Company</h4>
+                <i class="fas fa-quote-right" aria-hidden="true"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                  debitis facere adipisci eos velit odit numquam corrupti
+                  corporis, blanditiis, fuga, repellendus ex suscipit. Totam
+                  quod tenetur laboriosam delectus autem dolore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact">
+          <h2>Contact Us</h2>
+          <div class="content">
+            <form>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                placeholder="Your Name"
+              />
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                required
+                placeholder="Your Email"
+              />
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                required
+                placeholder="Phone Number"
+              />
+              <textarea
+                name="mess"
+                id="mess"
+                rows="7"
+                placeholder="Your Message Here..."
+              ></textarea>
+              <button type="submit">
+                Send <i class="fa fa-paper-plane" aria-hidden="true"></i>
+              </button>
+            </form>
+            <div class="map">
+              <!-- <iframe
+                src="https://maps.google.com/maps?q=brewster%20massachusets&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+              ></iframe> -->
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="600"
+                    height="500"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=brewster%20massachusets&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe
+                  ><a
+                    href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/"
+                  ></a>
+                </div>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 550px;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 550px;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <h3><i class="fa fa-comments"></i> COMMUNICATION</h3>
+              <p>
+                For General Queries, Including Property Sales And Constructions,
+                Please Email Us At <span>Info@Example.Com</span>
+              </p>
+            </div>
+            <div class="text">
+              <h3><i class="fa fa-life-ring"></i> TECHNICAL SUPPORT</h3>
+              <p>
+                We Are Ready To Help! If You Have Any Queries Or Issues, Contact
+                Us For Support <span>+84 232 434 1212.</span>
+              </p>
+            </div>
+            <div class="text">
+              <h3><i class="fa fa-map"></i> OTHERS</h3>
+              <p>
+                For General Queries, Including Property Sales And Constructions,
+                Please Email Us At <span>Info@Example.Com</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="content">
+        <div class="box">
+          <h2>WHO WE ARE</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio et
+            placeat deserunt dicta dignissimos sit provident maxime, fugit sunt
+            esse? Deserunt atque repudiandae unde quod sequi recusandae qui
+            molestiae! Corporis?
+          </p>
+          <h3>Trusted by more than 1000+ clients</h3>
+        </div>
+        <div class="box">
+          <h2>CONTACT US</h2>
+          <h3><i class="fas fa-map-marker"></i> Location</h3>
+          <p>123B Vo Nguyen Giap, Nha Trang, Khanh Hoa, Viet Nam</p>
+          <h3><i class="fas fa-phone"></i> Phone</h3>
+          <p>+84 123 3123 3123</p>
+          <h3><i class="fas fa-envelope"></i> Email</h3>
+          <p>infor@gmail.com</p>
+        </div>
+        <div class="box">
+          <h2>LATEST NEWS</h2>
+          <h3><i class="fab fa-twitter"></i> Sed ut piciatis unde natus</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente a
+            in labore ducimus, quibusdam et.
+          </p>
+          <h3><i class="fab fa-twitter"></i> Sed ut piciatis unde natus</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente a
+            in labore ducimus, quibusdam et.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <p>
+          &copy; 2020 Real Estate . All Rights Reserved | Design by
+          <span>LucianoNicacio</span>
+        </p>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook"></i> facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+          <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+          <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="login-container">
+      <i class="fas fa-times" id="btn-close"></i>
+      <div class="login-box">
+        <form>
+          <h2>Login</h2>
+          <label for="logmail">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <input
+              type="email"
+              name="logmail"
+              id="logmail"
+              required
+              placeholder="Your Email"
+            />
+          </label>
+          <label for="logpass">
+            <i class="fas fa-lock" aria-hidden="true"></i>
+            <input
+              type="password"
+              name="logpass"
+              id="logpass"
+              required
+              placeholder="Your Password"
+            />
+          </label>
+
+          <label for="chk" class="check">
+            <input type="checkbox" name="chk" id="chk" />
+            Remember me
+          </label>
+          <button type="submit">Login</button>
+          <p>Or login with</p>
+          <a href="#" class="btn btn-fb"
+            ><i class="fab fa-facebook"></i> Facebook</a
+          >
+          <a href="#" class="btn btn-gg"
+            ><i class="fab fa-google"></i> Google</a
+          >
+          <p>Not a member? <a href="#" class="next-log">Register now</a></p>
+        </form>
+      </div>
+      <div class="login-box show" id="res">
+        <form>
+          <h2>Register</h2>
+          <label for="username">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              required
+              placeholder="User Name"
+            />
+          </label>
+          <label for="resmail">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <input
+              type="email"
+              name="resmail"
+              id="resmail"
+              required
+              placeholder="Your Email"
+            />
+          </label>
+          <label for="pass">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input
+              type="password"
+              name="pass"
+              id="pass"
+              required
+              placeholder="Your Password"
+            />
+          </label>
+          <label for="cf-pass">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input
+              type="password"
+              name="pass"
+              id="cf-pass"
+              required
+              placeholder="Confirm Password"
+            />
+          </label>
+
+          <label for="chk1" class="check">
+            <input type="checkbox" name="chk1" id="chk1" />
+            I accept <span>Terms of User</span> & <span>Privacy Pollicy</span>
+          </label>
+          <button type="submit">Register</button>
+          <p>
+            Already have an account? <a href="#" class="next-log">Login now</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="top">
+      <a href="#"> &#11165; </a>
+    </div>
+
+    <script src="main-script.js"></script>
+  </body>
+</html>
